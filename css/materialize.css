@@ -1492,6 +1492,7 @@
 
 .yellow-text.text-darken-1 {
   color: #fdd835 !important;
+  
 }
 
 .yellow.darken-2 {
@@ -3350,7 +3351,7 @@ td, th {
   text-align: right;
 }
 
-.center, .center-align {
+.center,  {
   text-align: center;
 }
 
@@ -4549,10 +4550,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1 {
   position: relative;
   color: #fff;
-  font-size: 65px;
+  font-size: 62px;
   line-height: 110%;
   margin: 2.8rem 0 1.68rem 0;
   margin: auto;
+  text-align: center;
+  margin-top: 180px;
 
 }
 
@@ -4582,6 +4585,8 @@ h5 {
   margin: 2.8rem 0 1.68rem 0;
   margin: auto;
   font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+  text-align: center;
 }
 
 h6 {
@@ -5248,22 +5253,62 @@ small {
 
 .btn-floating {
   display: inline-block;
-  color: #fff;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  width: 40px;
-  height: 40px;
+  width: 150px;
+  height: 50px;
   line-height: 40px;
   padding: 0;
   background-color: #26a69a;
-  border-radius: 50%;
+  border-radius:22px ;
+  margin: auto;
+  margin-left: 510px;
+  margin-top: 100px;
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   cursor: pointer;
   vertical-align: middle;
 }
 
+.btn-floating-pri{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 130px;
+  height: 35px;
+  line-height: 30px;
+  padding: 1.5px;
+  border-radius:22px;
+  text-align: center;
+  bottom: 4px; 
+  border: solid 1.5px white;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn-floating-seg{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 150px;
+  height:50px;
+  line-height: 40px;
+  padding: 1.5px;
+  border-radius:22px;
+  text-align: center; 
+  color: white;
+  border: solid 1.5px #ff4081;
+  margin: auto;
+  margin-top: 100px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
 .btn-floating:hover {
   background-color: #26a69a;
 }
@@ -5320,7 +5365,7 @@ small {
 }
 
 button.btn-floating {
-  border: none;
+  border: none ;
 }
 
 .fixed-action-btn {
@@ -5627,6 +5672,8 @@ body.keyboard-focused .dropdown-content li:focus {
   z-index: 1;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
+  
+
 }
 
 .waves-effect .waves-ripple {
